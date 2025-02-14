@@ -1,0 +1,70 @@
+
+header {
+    background: rgb(57,166,222);
+    background: -moz-linear-gradient(146deg, rgba(57,166,222,1) 0%, rgba(29,253,179,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(146deg, rgba(57,166,222,1) 0%, rgba(29,253,179,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(146deg, rgba(57,166,222,1) 0%, rgba(29,253,179,1) 50%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#39a6de",endColorstr="#ffffff",GradientType=1);
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.country-card {
+    background-size: cover; /* Ensures the image covers the card */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    height: 200px; /* Fixed card height */
+    display: flex; /* Enables Flexbox for alignment */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+    border: none; /* Removes borders */
+    border-radius: 12px; /* Adds rounded corners */
+    margin: 0; /* Removes card margins */
+    overflow: hidden; /* Ensures the background image follows the rounded shape */
+  }
+  
+  .country-card .card-body {
+    background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background for text */
+    padding: 10px 20px; /* Adds padding around the text */
+    border-radius: 8px; /* Optional: rounded corners for the text block */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centers the text horizontally */
+    display: flex; /* Enables Flexbox for the text block */
+    flex-direction: column; /* Aligns text elements vertically */
+    justify-content: center; /* Centers text vertically within the block */
+    align-items: center; /* Centers text horizontally within the block */
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .row:last-child {
+    justify-content: center;
+  }
+
+body {
+  font-family: "Raleway", sans-serif; /* Applies to the whole page */
+  font-weight: 400; /* Regular weight for most text */
+  font-style: normal;
+}
+header h1, header p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+    
+  
+  
+  
